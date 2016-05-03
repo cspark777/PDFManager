@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4c60af17-d64f-4cb8-ba0f-ad61254f276d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\About">
+      <UniqueIdentifier>{25c173a8-6ac2-478c-a544-92352c31f8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\App">
+      <UniqueIdentifier>{d30f91de-ec45-47ac-9468-23eb05b946c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\OLE Automation">
+      <UniqueIdentifier>{c0291b7b-786b-4024-86ba-27b7a6fc3936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Categories">
+      <UniqueIdentifier>{f812fc94-bcb6-4511-b3df-a77152238d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Collections">
+      <UniqueIdentifier>{6262be01-6311-46a9-8851-8cba960a9b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Email">
+      <UniqueIdentifier>{1bd823e3-b1f2-47a9-8355-969c3d35228f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Export">
+      <UniqueIdentifier>{8a45b65c-3127-42a8-a175-b713f6656099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Files">
+      <UniqueIdentifier>{997dd30c-d0a3-425d-b369-6c707541b5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GetInfo">
+      <UniqueIdentifier>{3cf4c7d8-9104-4468-a25c-239c5cfa751a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GUI Controls, Dialogs">
+      <UniqueIdentifier>{4a25906f-f2ad-48a9-b48b-a015af9bab03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GUI Controls, Dialogs\Options">
+      <UniqueIdentifier>{24bac3ae-0c56-4ea3-b27d-d8a71651de8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Watched folders">
+      <UniqueIdentifier>{24eb4142-ea18-4dfc-9a51-8e475174234d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Import">
+      <UniqueIdentifier>{c0004609-183f-4d70-8dc4-41fdf4e8c52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Tags">
+      <UniqueIdentifier>{a48ccb6d-1184-4058-add4-33cded02a263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{ce454eea-60ca-491c-8da6-66efc99d430e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\quickpdf">
+      <UniqueIdentifier>{9efd70f7-caf8-40d7-b4c7-d171ffde47d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\shared">
+      <UniqueIdentifier>{ec564bf1-5e9d-4fd2-a9d2-5c01a751d9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\sqlite">
+      <UniqueIdentifier>{f422d081-497d-4698-82c8-cb842a7e8794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\zip">
+      <UniqueIdentifier>{588dc0cb-caee-4a26-b8c5-41a712d33e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\sn">
+      <UniqueIdentifier>{e172645a-2d60-4d90-bfca-424cd3c2c2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Pdf">
+      <UniqueIdentifier>{217d8e9e-5964-40aa-a34d-c8549d440196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Utils">
+      <UniqueIdentifier>{8238b0e0-9d37-407f-9e80-f612000100c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Repository &amp; Workspace">
+      <UniqueIdentifier>{8726e57c-ac4c-4dd0-a2c6-3b877a9d46b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PDF Properties">
+      <UniqueIdentifier>{9df0fcef-0bcd-4e3d-aa1c-2ef1aef7b71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Mainframe">
+      <UniqueIdentifier>{c3c3cac9-9b91-4e3e-bfcc-be8a9a5b9b74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAboutDlg.cpp">
+      <Filter>Source files\About</Filter>
+    </ClCompile>
+    <ClCompile Include="CAboutTabDlg.cpp">
+      <Filter>Source files\About</Filter>
+    </ClCompile>
+    <ClCompile Include="CLicenseDlg.cpp">
+      <Filter>Source files\About</Filter>
+    </ClCompile>
+    <ClCompile Include="CLicenseTabDlg.cpp">
+      <Filter>Source files\About</Filter>
+    </ClCompile>
+    <ClCompile Include="CVersion.cpp">
+      <Filter>Source files\About</Filter>
+    </ClCompile>
+    <ClCompile Include="Benubird.cpp">
+      <Filter>Source files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollectionPanel.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="CTagsPanel.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlookBar.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="BenubirdAutoProxy.cpp">
+      <Filter>Source files\OLE Automation</Filter>
+    </ClCompile>
+    <ClCompile Include="CCategoriesSelectionDlg.cpp">
+      <Filter>Source files\Categories</Filter>
+    </ClCompile>
+    <ClCompile Include="CManageCategoriesDlg.cpp">
+      <Filter>Source files\Categories</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollectionTree.cpp">
+      <Filter>Source files\Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="CCopyCollectionDlg.cpp">
+      <Filter>Source files\Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenameCollectionDlg.cpp">
+      <Filter>Source files\Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartCollectionsDlg.cpp">
+      <Filter>Source files\Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="CEmailUtils.cpp">
+      <Filter>Source files\Email</Filter>
+    </ClCompile>
+    <ClCompile Include="CBurnToDiscDlg.cpp">
+      <Filter>Source files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollectionsComboBox.cpp">
+      <Filter>Source files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfirmPasswordDlg.cpp">
+      <Filter>Source files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="CExportFolderDlg.cpp">
+      <Filter>Source files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="CExportZipDlg.cpp">
+      <Filter>Source files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteFileDlg.cpp">
+      <Filter>Source files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissingFileDlg.cpp">
+      <Filter>Source files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissingFilesDlg.cpp">
+      <Filter>Source files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetInfoDlg.cpp">
+      <Filter>Source files\GetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetInfoInfoTabDlg.cpp">
+      <Filter>Source files\GetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetInfoPDFTabDlg.cpp">
+      <Filter>Source files\GetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetInfoSummaryTabDlg.cpp">
+      <Filter>Source files\GetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultipleProfileInformationDlg.cpp">
+      <Filter>Source files\GetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CAlertDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CBBDialogBar.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CBBTabCtrl.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CBBTabPanel.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrowseFolderDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangedFilesDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfirmOverwriteDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditFilePropertiesDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetTextDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegisterBenubirdProDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenameFileDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CRibbonFindEdit.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CRibbonFindEditCtrl.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSplashScreenDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RebarDC.cpp">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsCheckForUpdatesDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsFileManagerDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsGeneralDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsInterfaceDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsNotificationsDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsPDFDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsPropertiesDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionsUnsortedFilterDlg.cpp">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="CCheckForUpdates.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CIconComboBox.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CListSort.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegistry.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtils.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="W3C.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CIncludeFileTypesDlg.cpp">
+      <Filter>Source files\Watched folders</Filter>
+    </ClCompile>
+    <ClCompile Include="CManageWatchedFoldersDlg.cpp">
+      <Filter>Source files\Watched folders</Filter>
+    </ClCompile>
+    <ClCompile Include="CWatchedFolderSettingsDlg.cpp">
+      <Filter>Source files\Watched folders</Filter>
+    </ClCompile>
+    <ClCompile Include="CBWorkspace.cpp">
+      <Filter>Source files\Repository &amp; Workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportFolderDlg.cpp">
+      <Filter>Source files\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportZipDlg.cpp">
+      <Filter>Source files\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddMultipleTagsDlg.cpp">
+      <Filter>Source files\Tags</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddTagsDlg.cpp">
+      <Filter>Source files\Tags</Filter>
+    </ClCompile>
+    <ClCompile Include="CManageTagsDlg.cpp">
+      <Filter>Source files\Tags</Filter>
+    </ClCompile>
+    <ClCompile Include="CTagsEditTagDlg.cpp">
+      <Filter>Source files\Tags</Filter>
+    </ClCompile>
+    <ClCompile Include="CTagsSelectionDlg.cpp">
+      <Filter>Source files\Tags</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="CBrowserPanel.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sqlite\CppSQLite3U.cpp">
+      <Filter>Libraries\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sqlite\sqlite3.c">
+      <Filter>Libraries\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CDB.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CLog.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CProgressDlg.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\Define.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\FileFinder.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\Path.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\zip\unzip.cpp">
+      <Filter>Libraries\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\zip\zip.cpp">
+      <Filter>Libraries\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sn\sn.cpp">
+      <Filter>Libraries\sn</Filter>
+    </ClCompile>
+    <ClCompile Include="CPDFPropertiesDlg.cpp">
+      <Filter>Source files\Pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="CPDFPropertiesFrame.cpp">
+      <Filter>Source files\Pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="CConvertToPDFDlg.cpp">
+      <Filter>Source files\Pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="CDocumentFileList.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CBRepository.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryView.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutsView.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageExtract.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPreviewPanel.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="DocPropertiesCustom.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="DocPropertiesDesc.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="DocPropertiesFonts.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="DocPropertiesInitView.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="DocPropertiesSecurity.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="DocumentPropertiesDlg.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="PDFView.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="PDFUtils.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordSettingsDlg.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestPasswordDlg.cpp">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="PDFDoc.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDoc.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportLibraryFromZip.cpp" />
+    <ClCompile Include="FolderDlg.cpp">
+      <Filter>Source files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="LibrarySettingDlg.cpp" />
+    <ClCompile Include="CTrialDlg.cpp">
+      <Filter>Source files\About</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\quickpdf\DebenuPDFLibraryAX0912.cpp">
+      <Filter>Libraries\quickpdf</Filter>
+    </ClCompile>
+    <ClCompile Include="CContentSearchDlg.cpp">
+      <Filter>Source files\Mainframe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAboutDlg.h">
+      <Filter>Source files\About</Filter>
+    </ClInclude>
+    <ClInclude Include="CAboutTabDlg.h">
+      <Filter>Source files\About</Filter>
+    </ClInclude>
+    <ClInclude Include="CLicenseDlg.h">
+      <Filter>Source files\About</Filter>
+    </ClInclude>
+    <ClInclude Include="CLicenseTabDlg.h">
+      <Filter>Source files\About</Filter>
+    </ClInclude>
+    <ClInclude Include="CVersion.h">
+      <Filter>Source files\About</Filter>
+    </ClInclude>
+    <ClInclude Include="Benubird.h">
+      <Filter>Source files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="CLimitSingleInstance.h">
+      <Filter>Source files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrowserPanel.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollectionPanel.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="CTagsPanel.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlookBar.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="BenubirdAutoProxy.h">
+      <Filter>Source files\OLE Automation</Filter>
+    </ClInclude>
+    <ClInclude Include="CCategoriesSelectionDlg.h">
+      <Filter>Source files\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="CManageCategoriesDlg.h">
+      <Filter>Source files\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollectionTree.h">
+      <Filter>Source files\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="CCopyCollectionDlg.h">
+      <Filter>Source files\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenameCollectionDlg.h">
+      <Filter>Source files\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartCollectionsDlg.h">
+      <Filter>Source files\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmailUtils.h">
+      <Filter>Source files\Email</Filter>
+    </ClInclude>
+    <ClInclude Include="CBurnToDiscDlg.h">
+      <Filter>Source files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollectionsComboBox.h">
+      <Filter>Source files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfirmPasswordDlg.h">
+      <Filter>Source files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="CExportFolderDlg.h">
+      <Filter>Source files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="CExportZipDlg.h">
+      <Filter>Source files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeleteFileDlg.h">
+      <Filter>Source files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissingFileDlg.h">
+      <Filter>Source files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissingFilesDlg.h">
+      <Filter>Source files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetInfoDlg.h">
+      <Filter>Source files\GetInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetInfoInfoTabDlg.h">
+      <Filter>Source files\GetInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetInfoPDFTabDlg.h">
+      <Filter>Source files\GetInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetInfoSummaryTabDlg.h">
+      <Filter>Source files\GetInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultipleProfileInformationDlg.h">
+      <Filter>Source files\GetInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CAlertDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CBBDialogBar.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CBBTabCtrl.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CBBTabPanel.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrowseFolderDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangedFilesDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfirmOverwriteDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditFilePropertiesDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetTextDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegisterBenubirdProDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenameFileDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CRibbonFindEdit.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CRibbonFindEditCtrl.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CSplashScreenDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RebarDC.h">
+      <Filter>Source files\GUI Controls, Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsCheckForUpdatesDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsFileManagerDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsGeneralDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsInterfaceDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsNotificationsDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsPDFDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsPropertiesDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="COptionsUnsortedFilterDlg.h">
+      <Filter>Source files\GUI Controls, Dialogs\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="CCheckForUpdates.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CIconComboBox.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CListSort.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegistry.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtils.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="W3C.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CIncludeFileTypesDlg.h">
+      <Filter>Source files\Watched folders</Filter>
+    </ClInclude>
+    <ClInclude Include="CManageWatchedFoldersDlg.h">
+      <Filter>Source files\Watched folders</Filter>
+    </ClInclude>
+    <ClInclude Include="CWatchedFolderSettingsDlg.h">
+      <Filter>Source files\Watched folders</Filter>
+    </ClInclude>
+    <ClInclude Include="CBWorkspace.h">
+      <Filter>Source files\Repository &amp; Workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportFolderDlg.h">
+      <Filter>Source files\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportZipDlg.h">
+      <Filter>Source files\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddMultipleTagsDlg.h">
+      <Filter>Source files\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddTagsDlg.h">
+      <Filter>Source files\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="CManageTagsDlg.h">
+      <Filter>Source files\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="CTagsEditTagDlg.h">
+      <Filter>Source files\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="CTagsSelectionDlg.h">
+      <Filter>Source files\Tags</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\Libraries\sqlite\CppSQLite3U.h">
+      <Filter>Libraries\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\sqlite\sqlite3.h">
+      <Filter>Libraries\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CDB.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CLimitSingleInstance.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CLog.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\COptionsDefs.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CProgressDlg.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\Define.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\FileFinder.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\Path.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\zip\unzip.h">
+      <Filter>Libraries\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\zip\zip.h">
+      <Filter>Libraries\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\sn\sn.h">
+      <Filter>Libraries\sn</Filter>
+    </ClInclude>
+    <ClInclude Include="CPDFPropertiesDlg.h">
+      <Filter>Source files\Pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="CPDFPropertiesFrame.h">
+      <Filter>Source files\Pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="CConvertToPDFDlg.h">
+      <Filter>Source files\Pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="CDocumentFileList.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CBRepository.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryView.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutsView.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageExtract.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CPreviewPanel.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="DocPropertiesCustom.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="DocPropertiesDesc.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="DocPropertiesFonts.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="DocPropertiesInitView.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="DocPropertiesSecurity.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="DocumentPropertiesDlg.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="PDFView.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="PDFUtils.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordSettingsDlg.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestPasswordDlg.h">
+      <Filter>Source files\PDF Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="PDFDoc.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDoc.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportLibraryFromZip.h" />
+    <ClInclude Include="FolderDlg.h">
+      <Filter>Source files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySettingDlg.h" />
+    <ClInclude Include="common.h">
+      <Filter>Source files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrialDlg.h">
+      <Filter>Source files\About</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\quickpdf\DebenuPDFLibraryAX0912.h">
+      <Filter>Libraries\quickpdf</Filter>
+    </ClInclude>
+    <ClInclude Include="CContentSearchDlg.h">
+      <Filter>Source files\Mainframe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Benubird.idl">
+      <Filter>Source files\OLE Automation</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Benubird.reg">
+      <Filter>Source files\OLE Automation</Filter>
+    </None>
+    <None Include="res\About.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\animation.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Benubird.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Benubird.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Benubird.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btnStop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Collections.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DocThumb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DragDisable.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DragEnable.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\EmptyFile.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Error.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FileLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FileSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Hand.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idr_wksp_notif.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Info.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LibraryOutlookBarPanel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\License.rtf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\new icons.zip">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Question.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonHelpLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonHelpSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonHomeLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonHomeSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonImportAndExportLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonImportAndExportSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonMain.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonManageLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonManageSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonMenuLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonMenuSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonPanelsHelp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonPanelsHome.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonPanelsImportAndExport.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonPanelsManage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonUpgradeLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonUpgradeSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rtf1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SplashScreen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\UnknownFile.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Warning.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Workspace.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\license.txt" />
+    <None Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Pen.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pen1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonPdfLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonPdfSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\benubird_about.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Benubird.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

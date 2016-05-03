@@ -1,0 +1,38 @@
+// BenubirdShell.idl : IDL source for BenubirdShell.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (BenubirdShell.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(4AE8624C-1C5D-4A8D-88E9-A8F1C0076472),
+	
+		helpstring("IBenubirdShellExt Interface"),
+		pointer_default(unique)
+	]
+	interface IBenubirdShellExt : IUnknown
+	{
+	};
+
+[
+	uuid(9777BB38-9CD0-4527-95D1-E4C0BAE97858),
+	version(1.0),
+	helpstring("BenubirdShell 1.0 Type Library")
+]
+library BENUBIRDSHELLLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(3A1530BA-0C6D-46E3-B04D-E25494A05750),
+		helpstring("BenubirdShellExt Class")
+	]
+	coclass BenubirdShellExt
+	{
+		[default] interface IBenubirdShellExt;
+	};
+};

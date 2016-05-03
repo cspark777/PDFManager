@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Benubird - 64|Win32">
+      <Configuration>Benubird - 64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Benubird - 64|x64">
+      <Configuration>Benubird - 64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04D92D0B-20EC-4D01-8D7D-6D4FC7C4B840}</ProjectGuid>
+    <RootNamespace>Benubird</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">BenubirdPDF</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BenubirdPDF</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BenubirdPDF</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">BenubirdPDF</TargetName>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TypeLibraryName>$(IntDir)Benubird.tlb</TypeLibraryName>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Libraries\shared;..\Libraries\quickpdf;..\Libraries\sn;..\Libraries\sqlite;..\Libraries\zip</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;BENUBIRD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>rpcrt4.lib;uafxcwd.lib;Libcmtd.lib;Psapi.lib;version.lib;Netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>uafxcwd.lib;Libcmtd.lib;</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>$(IntDir)Benubird.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;..\;\Libraries\BCG\include;\Libraries\SQLite3;.\SQLSupport;\libraries\sn;.\zip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;BENUBIRD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);\Libraries\BCG\include\styles\;\Libraries\BCG\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>Psapi.lib;version.lib;Netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)Pro.exe</OutputFile>
+      <AdditionalLibraryDirectories>\libraries\bcg\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TypeLibraryName>$(IntDir)Benubird.tlb</TypeLibraryName>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\Libraries\shared;..\Libraries\quickpdf;..\Libraries\sn;..\Libraries\sqlite;..\Libraries\zip</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BENUBIRD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>rpcrt4.lib;uafxcw.lib;Libcmt.lib;Psapi.lib;version.lib;Netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>uafxcw.lib;Libcmt.lib;</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>BenubirdPro.exe.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>$(IntDir)Benubird.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\;\Libraries\BCG\include;\Libraries\SQLite3;.\SQLSupport;\libraries\sn;.\zip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BENUBIRD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);\Libraries\BCG\include\styles\;\Libraries\BCG\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>Psapi.lib;version.lib;Netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)Pro.exe</OutputFile>
+      <AdditionalLibraryDirectories>\libraries\bcg\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>BenubirdPro.exe.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TypeLibraryName>$(IntDir)Benubird.tlb</TypeLibraryName>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Libraries\shared;..\Libraries\quickpdf;..\Libraries\sn;..\Libraries\sqlite;..\Libraries\zip</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BENUBIRD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);\Libraries\BCG\include\styles\;\Libraries\BCG\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>Psapi.lib;version.lib;Netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>BenubirdPro.exe.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>$(IntDir)Benubird.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\;\Libraries\BCG\include;\Libraries\SQLite3;.\SQLSupport;\libraries\sn;.\zip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BENUBIRD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);\Libraries\BCG\include\styles\;\Libraries\BCG\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalDependencies>Psapi.lib;version.lib;Netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)Pro.exe</OutputFile>
+      <AdditionalLibraryDirectories>\libraries\bcg\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>BenubirdPro.exe.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Libraries\shared;..\Libraries\quickpdf;..\Libraries\sn;..\Libraries\sqlite;..\Libraries\zip</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Libraries\quickpdf\DebenuPDFLibraryAX0912.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CBRepository.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CDB.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CLog.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CProgressDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\Define.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\FileFinder.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\Path.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sn\sn.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sqlite\CppSQLite3U.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sqlite\sqlite3.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\zip\unzip.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\zip\zip.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CContentSearchDlg.cpp" />
+    <ClCompile Include="CTrialDlg.cpp" />
+    <ClCompile Include="FolderDlg.cpp" />
+    <ClCompile Include="ImportLibraryFromZip.cpp" />
+    <ClCompile Include="LibraryDoc.cpp" />
+    <ClCompile Include="CAboutDlg.cpp" />
+    <ClCompile Include="CAboutTabDlg.cpp" />
+    <ClCompile Include="CConvertToPDFDlg.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="CLicenseDlg.cpp" />
+    <ClCompile Include="CLicenseTabDlg.cpp" />
+    <ClCompile Include="CPDFPropertiesDlg.cpp" />
+    <ClCompile Include="CPDFPropertiesFrame.cpp" />
+    <ClCompile Include="CVersion.cpp" />
+    <ClCompile Include="Benubird.cpp" />
+    <ClCompile Include="CBrowserPanel.cpp" />
+    <ClCompile Include="CCollectionPanel.cpp" />
+    <ClCompile Include="DocPropertiesCustom.cpp" />
+    <ClCompile Include="DocPropertiesDesc.cpp" />
+    <ClCompile Include="DocPropertiesFonts.cpp" />
+    <ClCompile Include="DocPropertiesInitView.cpp" />
+    <ClCompile Include="DocPropertiesSecurity.cpp" />
+    <ClCompile Include="DocumentPropertiesDlg.cpp" />
+    <ClCompile Include="LibrarySettingDlg.cpp" />
+    <ClCompile Include="LibraryView.cpp" />
+    <ClCompile Include="CTagsPanel.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutlookBar.cpp" />
+    <ClCompile Include="CDocumentFileList.cpp" />
+    <ClCompile Include="BenubirdAutoProxy.cpp" />
+    <ClCompile Include="CCategoriesSelectionDlg.cpp" />
+    <ClCompile Include="CManageCategoriesDlg.cpp" />
+    <ClCompile Include="CCollectionTree.cpp" />
+    <ClCompile Include="CCopyCollectionDlg.cpp" />
+    <ClCompile Include="CRenameCollectionDlg.cpp" />
+    <ClCompile Include="CSmartCollectionsDlg.cpp" />
+    <ClCompile Include="CEmailUtils.cpp" />
+    <ClCompile Include="CBurnToDiscDlg.cpp" />
+    <ClCompile Include="CCollectionsComboBox.cpp" />
+    <ClCompile Include="CConfirmPasswordDlg.cpp" />
+    <ClCompile Include="CExportFolderDlg.cpp" />
+    <ClCompile Include="CExportZipDlg.cpp" />
+    <ClCompile Include="CDeleteFileDlg.cpp" />
+    <ClCompile Include="CMissingFileDlg.cpp" />
+    <ClCompile Include="CMissingFilesDlg.cpp" />
+    <ClCompile Include="CGetInfoDlg.cpp" />
+    <ClCompile Include="CGetInfoInfoTabDlg.cpp" />
+    <ClCompile Include="CGetInfoPDFTabDlg.cpp" />
+    <ClCompile Include="CGetInfoSummaryTabDlg.cpp" />
+    <ClCompile Include="CMultipleProfileInformationDlg.cpp" />
+    <ClCompile Include="CAlertDlg.cpp" />
+    <ClCompile Include="CBBDialogBar.cpp" />
+    <ClCompile Include="CBBTabCtrl.cpp" />
+    <ClCompile Include="CBBTabPanel.cpp" />
+    <ClCompile Include="CBrowseFolderDlg.cpp" />
+    <ClCompile Include="CChangedFilesDlg.cpp" />
+    <ClCompile Include="CConfirmOverwriteDlg.cpp" />
+    <ClCompile Include="CEditFilePropertiesDlg.cpp" />
+    <ClCompile Include="CGetTextDlg.cpp" />
+    <ClCompile Include="CRegisterBenubirdProDlg.cpp" />
+    <ClCompile Include="CRenameFileDlg.cpp" />
+    <ClCompile Include="CRibbonFindEdit.cpp" />
+    <ClCompile Include="CRibbonFindEditCtrl.cpp" />
+    <ClCompile Include="CSplashScreenDlg.cpp" />
+    <ClCompile Include="PasswordSettingsDlg.cpp" />
+    <ClCompile Include="PDFDoc.cpp" />
+    <ClCompile Include="PDFUtils.cpp" />
+    <ClCompile Include="PDFView.cpp" />
+    <ClCompile Include="RebarDC.cpp" />
+    <ClCompile Include="COptionsCheckForUpdatesDlg.cpp" />
+    <ClCompile Include="COptionsDlg.cpp" />
+    <ClCompile Include="COptionsFileManagerDlg.cpp" />
+    <ClCompile Include="COptionsGeneralDlg.cpp" />
+    <ClCompile Include="COptionsInterfaceDlg.cpp" />
+    <ClCompile Include="COptionsNotificationsDlg.cpp" />
+    <ClCompile Include="COptionsPDFDlg.cpp" />
+    <ClCompile Include="COptionsPropertiesDlg.cpp" />
+    <ClCompile Include="COptionsUnsortedFilterDlg.cpp" />
+    <ClCompile Include="CImageExtract.cpp" />
+    <ClCompile Include="CPreviewPanel.cpp" />
+    <ClCompile Include="CCheckForUpdates.cpp" />
+    <ClCompile Include="CIconComboBox.cpp" />
+    <ClCompile Include="CListSort.cpp" />
+    <ClCompile Include="CRegistry.cpp" />
+    <ClCompile Include="CUtils.cpp" />
+    <ClCompile Include="RequestPasswordDlg.cpp" />
+    <ClCompile Include="ShortcutsView.cpp" />
+    <ClCompile Include="W3C.cpp" />
+    <ClCompile Include="CIncludeFileTypesDlg.cpp" />
+    <ClCompile Include="CManageWatchedFoldersDlg.cpp" />
+    <ClCompile Include="CWatchedFolderSettingsDlg.cpp" />
+    <ClCompile Include="CBWorkspace.cpp" />
+    <ClCompile Include="CImportFolderDlg.cpp" />
+    <ClCompile Include="CImportZipDlg.cpp" />
+    <ClCompile Include="CAddMultipleTagsDlg.cpp" />
+    <ClCompile Include="CAddTagsDlg.cpp" />
+    <ClCompile Include="CManageTagsDlg.cpp" />
+    <ClCompile Include="CTagsEditTagDlg.cpp" />
+    <ClCompile Include="CTagsSelectionDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Benubird - 64|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Libraries\quickpdf\DebenuPDFLibraryAX0912.h" />
+    <ClInclude Include="..\Libraries\shared\CBRepository.h" />
+    <ClInclude Include="..\Libraries\shared\CDB.h" />
+    <ClInclude Include="..\Libraries\shared\CLimitSingleInstance.h" />
+    <ClInclude Include="..\Libraries\shared\CLog.h" />
+    <ClInclude Include="..\Libraries\shared\COptionsDefs.h" />
+    <ClInclude Include="..\Libraries\shared\CProgressDlg.h" />
+    <ClInclude Include="..\Libraries\shared\Define.h" />
+    <ClInclude Include="..\Libraries\shared\FileFinder.h" />
+    <ClInclude Include="..\Libraries\shared\Path.h" />
+    <ClInclude Include="..\Libraries\sn\sn.h" />
+    <ClInclude Include="..\Libraries\sqlite\CppSQLite3U.h" />
+    <ClInclude Include="..\Libraries\sqlite\sqlite3.h" />
+    <ClInclude Include="..\Libraries\zip\unzip.h" />
+    <ClInclude Include="..\Libraries\zip\zip.h" />
+    <ClInclude Include="CContentSearchDlg.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="CTrialDlg.h" />
+    <ClInclude Include="FolderDlg.h" />
+    <ClInclude Include="ImportLibraryFromZip.h" />
+    <ClInclude Include="LibraryDoc.h" />
+    <ClInclude Include="CAboutDlg.h" />
+    <ClInclude Include="CAboutTabDlg.h" />
+    <ClInclude Include="CConvertToPDFDlg.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CLicenseDlg.h" />
+    <ClInclude Include="CLicenseTabDlg.h" />
+    <ClInclude Include="CPDFPropertiesDlg.h" />
+    <ClInclude Include="CPDFPropertiesFrame.h" />
+    <ClInclude Include="CVersion.h" />
+    <ClInclude Include="Benubird.h" />
+    <ClInclude Include="CLimitSingleInstance.h" />
+    <ClInclude Include="CBrowserPanel.h" />
+    <ClInclude Include="CCollectionPanel.h" />
+    <ClInclude Include="DocPropertiesCustom.h" />
+    <ClInclude Include="DocPropertiesDesc.h" />
+    <ClInclude Include="DocPropertiesFonts.h" />
+    <ClInclude Include="DocPropertiesInitView.h" />
+    <ClInclude Include="DocPropertiesSecurity.h" />
+    <ClInclude Include="DocumentPropertiesDlg.h" />
+    <ClInclude Include="LibrarySettingDlg.h" />
+    <ClInclude Include="LibraryView.h" />
+    <ClInclude Include="CTagsPanel.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutlookBar.h" />
+    <ClInclude Include="CDocumentFileList.h" />
+    <ClInclude Include="BenubirdAutoProxy.h" />
+    <ClInclude Include="CCategoriesSelectionDlg.h" />
+    <ClInclude Include="CManageCategoriesDlg.h" />
+    <ClInclude Include="CCollectionTree.h" />
+    <ClInclude Include="CCopyCollectionDlg.h" />
+    <ClInclude Include="CRenameCollectionDlg.h" />
+    <ClInclude Include="CSmartCollectionsDlg.h" />
+    <ClInclude Include="CEmailUtils.h" />
+    <ClInclude Include="CBurnToDiscDlg.h" />
+    <ClInclude Include="CCollectionsComboBox.h" />
+    <ClInclude Include="CConfirmPasswordDlg.h" />
+    <ClInclude Include="CExportFolderDlg.h" />
+    <ClInclude Include="CExportZipDlg.h" />
+    <ClInclude Include="CDeleteFileDlg.h" />
+    <ClInclude Include="CMissingFileDlg.h" />
+    <ClInclude Include="CMissingFilesDlg.h" />
+    <ClInclude Include="CGetInfoDlg.h" />
+    <ClInclude Include="CGetInfoInfoTabDlg.h" />
+    <ClInclude Include="CGetInfoPDFTabDlg.h" />
+    <ClInclude Include="CGetInfoSummaryTabDlg.h" />
+    <ClInclude Include="CMultipleProfileInformationDlg.h" />
+    <ClInclude Include="CAlertDlg.h" />
+    <ClInclude Include="CBBDialogBar.h" />
+    <ClInclude Include="CBBTabCtrl.h" />
+    <ClInclude Include="CBBTabPanel.h" />
+    <ClInclude Include="CBrowseFolderDlg.h" />
+    <ClInclude Include="CChangedFilesDlg.h" />
+    <ClInclude Include="CConfirmOverwriteDlg.h" />
+    <ClInclude Include="CEditFilePropertiesDlg.h" />
+    <ClInclude Include="CGetTextDlg.h" />
+    <ClInclude Include="CRegisterBenubirdProDlg.h" />
+    <ClInclude Include="CRenameFileDlg.h" />
+    <ClInclude Include="CRibbonFindEdit.h" />
+    <ClInclude Include="CRibbonFindEditCtrl.h" />
+    <ClInclude Include="CSplashScreenDlg.h" />
+    <ClInclude Include="PasswordSettingsDlg.h" />
+    <ClInclude Include="PDFDoc.h" />
+    <ClInclude Include="PDFUtils.h" />
+    <ClInclude Include="PDFView.h" />
+    <ClInclude Include="RebarDC.h" />
+    <ClInclude Include="COptionsCheckForUpdatesDlg.h" />
+    <ClInclude Include="COptionsDlg.h" />
+    <ClInclude Include="COptionsFileManagerDlg.h" />
+    <ClInclude Include="COptionsGeneralDlg.h" />
+    <ClInclude Include="COptionsInterfaceDlg.h" />
+    <ClInclude Include="COptionsNotificationsDlg.h" />
+    <ClInclude Include="COptionsPDFDlg.h" />
+    <ClInclude Include="COptionsPropertiesDlg.h" />
+    <ClInclude Include="COptionsUnsortedFilterDlg.h" />
+    <ClInclude Include="CImageExtract.h" />
+    <ClInclude Include="CPreviewPanel.h" />
+    <ClInclude Include="CCheckForUpdates.h" />
+    <ClInclude Include="CIconComboBox.h" />
+    <ClInclude Include="CListSort.h" />
+    <ClInclude Include="CRegistry.h" />
+    <ClInclude Include="CUtils.h" />
+    <ClInclude Include="RequestPasswordDlg.h" />
+    <ClInclude Include="ShortcutsView.h" />
+    <ClInclude Include="W3C.h" />
+    <ClInclude Include="CIncludeFileTypesDlg.h" />
+    <ClInclude Include="CManageWatchedFoldersDlg.h" />
+    <ClInclude Include="CWatchedFolderSettingsDlg.h" />
+    <ClInclude Include="CBWorkspace.h" />
+    <ClInclude Include="CImportFolderDlg.h" />
+    <ClInclude Include="CImportZipDlg.h" />
+    <ClInclude Include="CAddMultipleTagsDlg.h" />
+    <ClInclude Include="CAddTagsDlg.h" />
+    <ClInclude Include="CManageTagsDlg.h" />
+    <ClInclude Include="CTagsEditTagDlg.h" />
+    <ClInclude Include="CTagsSelectionDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Benubird.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Benubird.reg" />
+    <None Include="res\About.bmp" />
+    <None Include="res\animation.avi" />
+    <None Include="res\Benubird.bmp" />
+    <None Include="res\Benubird.ico" />
+    <None Include="res\Benubird.rc2" />
+    <None Include="res\benubird_about.bmp" />
+    <None Include="res\btnStop.png" />
+    <None Include="res\Collections.bmp" />
+    <None Include="res\DocThumb.bmp" />
+    <None Include="res\DragDisable.cur" />
+    <None Include="res\DragEnable.cur" />
+    <None Include="res\EmptyFile.ico" />
+    <None Include="res\Error.ico" />
+    <None Include="res\FileLarge.bmp" />
+    <None Include="res\FileSmall.bmp" />
+    <None Include="res\Hand.ico" />
+    <None Include="res\icon3.ico" />
+    <None Include="res\idr_wksp_notif.ico" />
+    <None Include="res\Info.ico" />
+    <None Include="res\LibraryOutlookBarPanel.bmp" />
+    <None Include="res\License.rtf" />
+    <None Include="res\new icons.zip" />
+    <None Include="res\Pen.ico" />
+    <None Include="res\pen1.ico" />
+    <None Include="res\Question.ico" />
+    <None Include="res\RibbonHelpLarge.bmp" />
+    <None Include="res\RibbonHelpSmall.bmp" />
+    <None Include="res\RibbonHomeLarge.bmp" />
+    <None Include="res\RibbonHomeSmall.bmp" />
+    <None Include="res\RibbonImportAndExportLarge.bmp" />
+    <None Include="res\RibbonImportAndExportSmall.bmp" />
+    <None Include="res\RibbonMain.bmp" />
+    <None Include="res\RibbonManageLarge.bmp" />
+    <None Include="res\RibbonManageSmall.bmp" />
+    <None Include="res\RibbonMenuLarge.bmp" />
+    <None Include="res\RibbonMenuSmall.bmp" />
+    <None Include="res\RibbonPanelsHelp.bmp" />
+    <None Include="res\RibbonPanelsHome.bmp" />
+    <None Include="res\RibbonPanelsImportAndExport.bmp" />
+    <None Include="res\RibbonPanelsManage.bmp" />
+    <None Include="res\RibbonPdfLarge.bmp" />
+    <None Include="res\RibbonPdfSmall.bmp" />
+    <None Include="res\RibbonUpgradeLarge.bmp" />
+    <None Include="res\RibbonUpgradeSmall.bmp" />
+    <None Include="res\rtf1.bin" />
+    <None Include="res\SplashScreen.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\UnknownFile.ico" />
+    <None Include="res\Warning.ico" />
+    <None Include="res\Workspace.bmp" />
+    <None Include="res\license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Benubird.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Benubird.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

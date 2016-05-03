@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\Benubird.Application = Benubird Application
+
+
+HKEY_CLASSES_ROOT\Benubird.Application\CLSID = {B1789690-8215-4669-A691-174D19A147A3}
+
+HKEY_CLASSES_ROOT\CLSID\{B1789690-8215-4669-A691-174D19A147A3} = Benubird Application
+HKEY_CLASSES_ROOT\CLSID\{B1789690-8215-4669-A691-174D19A147A3}\ProgId = Benubird.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{B1789690-8215-4669-A691-174D19A147A3}\LocalServer32 = Benubird.EXE

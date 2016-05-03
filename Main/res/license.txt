@@ -1,0 +1,163 @@
+SOFTWARE LICENSE AGREEMENT
+
+In this License Agreement, unless the context otherwise requires, "Debenu" means Debenu Pty Ltd ACN 127 090 180 trading as Debenu and its successors and assigns.
+
+The software that is subject to this End User's License Agreement (EULA) is licensed, not sold, to the Licensee by Debenu.
+
+IF LICENSEE DOES NOT AGREE TO ALL OF THE TERMS AND CONDITIONS OF THIS EULA, THEN WITHIN 30 CALENDAR DAYS AFTER ACQUIRING THE LICENSED SOFTWARE, LICENSEE MAY RETURN IT TO THE PLACE WHERE LICENSEE OBTAINED IT FOR A FULL REFUND (LESS, IF APPLICABLE, SHIPPING, HANDLING, AND ANY TAXES), BUT ONLY IF LICENSEE HAS NOT INSTALLED, ACCESSED, OR USED THE LICENSED SOFTWARE.
+
+Installing, copying, accessing, or using the Licensed Software constitutes Licensee's acceptance of, and promise to comply with, all of the terms and conditions of this EULA.
+
+LICENSE TERMS
+CONTENTS.
+The "Licensed Software" includes all of the contents of the files, disk(s), CD-ROM(s), DVDs, or other media for which this EULA is provided, including:
+(1) third party computer information or software that Debenu has licensed for inclusion in the Licensed Software;
+(2) written materials or files relating to the Licensed Software ("Documentation");
+(3) fonts; and
+(4) upgrades, modified versions, updates, additions, and copies of the Licensed Software, if any (collectively, "Updates").
+
+INSTALLATION.
+Licensee may install one copy of the Licensed Software on a single computer. The primary user of the computer on which the Licensed Software is installed may install a second copy of the software for his or her exclusive use on either a portable computer or a computer located at his or her home, provided the software on the portable or home computer is not used at the same time as the software on the primary computer. If Licensed Software includes multiple licenses, Licensee may install the number of copies licensed to Licensee by Debenu Licensee shall be solely responsible for all expenses incurred in Licensee's installation of the Licensed Software.
+
+ACTIVATION.
+The Licensed Software contains technological measures that are designed to prevent its unlicensed or illegal use. The Licensed Software may contain enforcement technology that limits Licensee's ability to install and uninstall the Licensed Software on a machine to no more than a finite number of times, and for a finite number of machines.
+ 
+The Licensed Software may require activation as explained during installation and in the Documentation. If any such applicable activation procedure(s) is not followed, then the Licensed Software may only operate for a finite period of time. If activation is required, and not completed within the finite period of time set forth in the Documentation and explained during installation, then the Licensed Software will cease to function until activation has been completed, at which time functionality will be restored. If Licensee has any problem with the activation process, Licensee should contact Debenu customer support.
+
+COPIES.
+Licensee may make one copy of the Licensed Software for backup or archival purposes only, except that the Documentation may not be duplicated.
+
+TRANSFER.
+Licensee may not sell, assign, or transfer the Licensed Software or the License granted by this EULA without prior written consent of Debenu USE.
+The License granted by this EULA is non-exclusive.
+
+PROHIBITED USES.
+(1) Licensee may not modify, adapt, translate, sublicense, rent, lease, or loan all or any portion of the Licensed Software or Documentation;
+
+(2) Licensee may not create any derivative works from all or any portion of the Licensed Software or Documentation;
+
+(3) Licensee may not reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the License Software the Licensed Software except, and then: only to the extent expressly permitted by applicable law; after notification to Debenu; upon payment of a reasonable fee; and execution of a confidentiality agreement to protect the code from disclosure to any third parties;
+
+(4) Licensee may not use a previous version of the Licensed Software after receiving a media replacement or upgraded version as a replacement to a prior version (in such case you must destroy the prior version);
+
+(5) Licensee may not use the Licensed Software in the operation of aircraft, ship, nuclear facilities, life support machines, communication systems, or any other equipment in which the failure of the software could lead to personal injury, death, or environmental damage;
+
+(6) Licensee may not remove or obscure Debenu Pty. Ltd.'s copyright or trademark notices, or the copyright and trademark notices of third parties that Debenu has included in the Licensed Software or Documentation; and
+
+(7) Licensee may not use the Licensed Software to host applications for third parties, as part of a facility management, timesharing, service provider, or service bureau arrangement; and
+
+(8) Licensee may not use the Licensed Software in any manner not authorized by this EULA.
+
+ACKNOWLEDGEMENT
+The Licensee acknowledges that the Licensed Software is designed to interact with and modify the properties of documents, Although unlikely, this may cause errors and the Licensee acknowledges that Debenu recommends that the Licensee backs up their documents. Debenu will not be liable for any loss associated with such an issue nor shall it be considered as a defect of the Licensed Software, 
+
+CONTENT.
+Licensee may use any clip art, photographs, icons, fonts, shapes, animations, sounds, music, video clips, and all other graphic content (collectively, "Content") included with the Licensed Software, if any, only as stated in the Documentation. If the Documentation does not permit Licensee to use the Content, then Licensee may not display, modify, reproduce, or distribute any of the Content; and even if the Documentation permits Licensee to use the Content, Licensee may not distribute the Content on a stand-alone basis such as where the Content constitutes the primary value of whatever Licensee is distributing.
+
+Certain portions of the Content may consist of the copyrights, trademarks, service marks, trade names, or other intellectual property of third parties. Debenu has provided these portions of the Content for Licensees' convenience in using the Licensed Software, pursuant to authorization of their owners. Except for this limited use, Licensee may not use any third-party intellectual property identified as belonging to others without the owners' express authorization. 
+
+Furthermore:
+(1) Licensee may not sell, license, distribute (commercially or otherwise), or make available the Content as stand-alone images or sounds, or in catalogs, design books, compilations, collections, templates, designs, stock engravings, products, services, or the like;
+
+(2) Licensee may not sell, license, distribute (commercially or otherwise), or make available electronic copies of the Content to third parties in any manner, including without limitation, via the Internet, on any tangible media or by broadcast, that is intended or designed to enable a third party to copy the Content for its own use;
+
+(3) Licensee may not sell, license, distribute (commercially or otherwise), or make available electronic copies of the Content that includes representations of identifiable individuals, governments, logos, initials, emblems, trademarks, or entities that expresses or implies any endorsement or association with any product, service, entity, or activity; and
+
+(4) Under no circumstances may the Content be used in the production of defamatory, fraudulent, infringing, lewd, obscene, or pornographic material, or in any otherwise illegal manner.
+
+Licensee is solely responsible for Licensee's use of the Content. Licensee may only use the Content responsibly, in a manner consistent with the exercise of good judgment. If Licensee is having difficulty deciding whether Licensee's intended use is appropriate, or whether Licensee needs written permission, or whether other legal issues should be considered, Debenu strongly encourages Licensee to seek competent legal counsel. Debenu will not assist Licensee in making this determination, nor can Debenu provide Licensee with legal advice as to intellectual property rights.
+
+If Licensee or Licensee's attorney determines that Licensee is required by law to obtain written permission to use portions of the Content, Licensee must request permission for reproduction, redistribution, or modification of the Content from the appropriate owner of the subject materials (as may be cited in the Licensed Software). If, on the other hand, Licensee or Licensee's attorney determines it is permissible to proceed and include Content from the Licensed Software, Debenu asks Licensee to correctly designate Debenu trademark(s) when referring to the Licensed software in the notice or copyright portion of Licensee's paper, project, or product.
+
+Licensee shall indemnity, hold harmless, and defend Debenu and Debenu suppliers from all claims, damages, attorneys' fees, costs, and lawsuits that arise from, or result from, Licensee's use or distribution of Content.
+
+SOFTWARE UPDATES.
+If the Licensed Software is an Update to a previous version, Licensee must possess a valid License to the previous version. Any Update provided to Licensee is made on a License exchange basis such that Licensee agrees, as a condition for receiving an Update, that Licensee will terminate all of Licensee's rights to use any previous version of the Licensed Software. However, Licensee may continue to use the previous version only to assist in transitioning to the Updated version. Once an Update has been released, Debenu may cease support for prior versions, without any notice to Licensee.
+
+SUPPORT.
+Debenu  is not obligated by this EULA to provide Licensee with any technical support services relating to the Licensed Software; however, Licensee may order additional support services for an additional charge as Debenu may offer from time to time during the term of this EULA.
+
+NO WARRANTY ON LICENSED SOFTWARE.
+The Licensed Software is provided to Licensee "AS IS." Debenu, and Debenu suppliers, make no warranty as to its use or performance. DEBENU, AND DEBENU SUPPLIERS, MAKE NO WARRANTIES, CONDITIONS, REPRESENTATIONS, OR TERMS (EXPRESS OR IMPLIED WHETHER BY STATUTE, COMMON LAW, CUSTOM, USAGE, OR OTHERWISE) AS TO ANY MATTER INCLUDING WITHOUT LIMITATION NON-INFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, INTEGRATION, SATISFACTORY QUALITY, OR FITNESS FOR ANY PARTICULAR PURPOSE, EXCEPT FOR, AND TO THE EXTENT, THAT A WARRANTY MAY NOT BE EXCLUDED OR LIMITED BY APPLICABLE LAW IN LICENSEE'S JURISDICTION. 
+
+LIMITATION OF LIABILITY.
+IN NO EVENT WILL DEBENU, OR DEBENU SUPPLIERS, BE LIABLE TO LICENSEE FOR ANY DAMAGES, CLAIMS, OR COSTS WHATSOEVER, OR FOR ANY CONSEQUENTIAL, INDIRECT, INCIDENTAL DAMAGES, OR ANY LOST PROFITS OR LOST SAVINGS, EVEN IF A REPRESENTATIVE OF DEBENU OR ONE OF DEBENU'S SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS, DAMAGES, CLAIMS, OR COSTS, OR FOR ANY CLAIM BY ANY THIRD PARTY. THESE LIMITATIONS AND EXCLUSIONS APPLY TO THE EXTENT PERMITTED BY APPLICABLE LAW IN LICENSEE'S JURISDICTION. THE AGGREGATE LIABILITY OF DEBENU, AND DEBENU'S SUPPLIERS, UNDER OR IN CONNECTION WITH THIS EULA, SHALL BE LIMITED TO THE AMOUNT PAID FOR THE LICENSED SOFTWARE, IF ANY.
+
+ADDITIONAL TERMS FOR BETA SOFTWARE.
+If the Licensed Software that Licensee receives with this EULA is pre-commercial release or "BETA" software ("Pre-release Software"), then, to the extent that any provision in this section is in conflict with any other term or condition in this EULA, this section supersedes such conflicting term(s) and condition(s) as to the Pre-release Software, but only to the extent necessary to resolve the conflict.
+
+Licensee acknowledges that the Pre-release Software does not represent the final product from Debenu ., and may contain bugs, errors, and other problems that could cause system or other failures and data loss. Consequently, Debenu disclaims any warranty or liability obligations to Licensee of any kind whatsoever. 
+
+IN APPLICABLE JURISDICTIONS WHERE LIABILITY CANNOT BE SO EXCLUDED FOR PRE-RELEASE SOFTWARE, BUT MAY BE LIMITED, DEBENU'S LIABILITY, AND THAT OF ITS SUPPLIERS, SHALL BE LIMITED TO THE TOTAL OF FIFTY DOLLARS (U.S. $50.00).
+
+Licensee acknowledges that Debenu has not promised or guaranteed to Licensee that the Pre-release Software will be announced or made available to anyone in the future, and that Debenu has no express or implied obligation to Licensee to announce or introduce the Pre-release Software. Debenu may decide not to introduce a product similar to, or compatible with, the Pre-release Software. Accordingly, Licensee acknowledges that any research or development that Licensee performs regarding the Pre-release Software, or any product associated with the Pre-release Software, is done entirely at Licensee's own risk.
+
+During the term of this EULA, if requested by Debenu, Licensee will provide feedback to Debenu regarding testing and use of the Pre-release Software, including error or bug reports.
+
+If Licensee has been provided the Pre-release Software pursuant to a separate written agreement, then Licensee's use of the Pre-release Software is also governed by that agreement. Notwithstanding anything in this EULA to the contrary, , Licensee will return or destroy all unreleased versions of the Pre-release Software within 30 days of the completion of Licensee's testing of the Pre-release Software if that date is earlier than the date scheduled for Debenu's first commercial shipment of the publicly released (commercial) Software.
+
+SURVIVAL OF DISCLAIMERS.
+The exclusions of warranties and liability limitations shall survive the termination of this EULA, howsoever caused; but this survival shall not imply or create any continued right to use the Licensed Software after termination of this EULA.
+
+EXPORT RULES.
+Licensee shall not ship, transfer, or export Licensed Software into any country or use Licensed Software in any manner prohibited by the United States Export Administration Act or any other export laws, restrictions, or regulations (collectively the "Export Laws.") If the Licensed Software is identified as export controlled items under the Export Laws, Licensee represents and warrants that Licensee, and Licensee's employees who will use the Licensed Software are not a citizen, or otherwise located within, an nation embargoed by the United States (including without limitation: Iran, Syria, Sudan, Cuba, and North Korea), and that Licensee, and Licensee's employees who will use the Licensed Software, are not otherwise prohibited under the Export Laws from receiving the Software. All rights to use the Licensed Software are granted on condition that Licensee complies with the Export Laws, and all such rights are forfeited if Licensee fails to comply with the Export Laws.
+
+GOVERNING LAW.
+This EULA is subject to, and will be governed by and construed in accordance with the substantive laws in force ofthe State of Victoria in Australia 
+
+INTELLECTUAL PROPERTY OWNERSHIP.
+The Licensed Software and any authorized copies that Licensee makes are the intellectual property of, and are owned by, Debenu, and by third parties whose intellectual property has been licensed by Debenu. The structure, organization, and code of the Licensed Software are the valuable trade secrets and confidential information of Debenu and such third parties. The Licensed Software is protected by law, including without limitation, the copyright laws of the United States and other countries, and by international treaty provisions. Except as expressly provided in this EULA, Licensee is not granted any intellectual property rights in the Licensed Software.
+
+RESERVATION OF RIGHTS.
+ Debenu  reserves all rights not expressly granted to Licensee by this EULA. The rights granted to Licensee are limited to Debenu's intellectual property rights, and to the intellectual property rights of third parties licensed by Debenu, and do not include any intellectual property rights.
+
+COMPLETE AGREEMENT.
+This EULA constitutes the entire agreement between the Licensee and Debenu relating to the Licensed Software, and it supersedes all prior or contemporaneous representations, discussions, undertakings, communications, agreements, arrangements, advertisements, and understandings regulating to the Licensed Software.
+
+MODIFICATION.
+This EULA may only be modified or amended by a writing signed by an authorized officer of Debenu 
+
+SEVERABILITY.
+If any provision of this EULA is determined by a court of competent jurisdiction to be contrary to law, that provision will be enforced to the maximum extent permissible, and the remaining provisions of this EULA will remain in full force and effect.
+
+WAIVER.
+No failure or delay by Debenu in exercising its rights or remedies shall operate as a waiver unless made by specific written notice. No single or partial exercise of any right or remedy of Debenu shall operate as a waiver or preclude any other, or further, exercise of that, or any other right, or remedy.
+
+U.S. GOVERNMENT USERS.
+The Licensed Software and Documentation are "Commercial Items," as that term is defined at 48 CFR §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation," as such terms are used in 48 CFR §12.212 or 48 CFR §227.7202, as applicable. Consistent with 48 CFR §12.212 or 48 CFR §§227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users:
+
+(1) only as Commercial Items; and
+
+(2) with only those rights as are granted to all other end users pursuant to the terms and conditions herein.
+
+For U.S. Government End Users, Debenu agrees to comply with all applicable equal opportunity laws including, if appropriate, the provisions of Executive Order 11246, as amended, Section 402 of the Vietnam Era Veterans Readjustment Assistance Act of 1974 (38 USC 4212), and Section 503 of the Rehabilitation Act of 1973, as amended, and the regulations at 41 CFR Parts 60-1 through 60-60, 60-250, and 60-741. The affirmative action clause and regulations contained in the preceding sentence shall be incorporated by reference in this EULA.
+
+PROOF OF COMPLIANCE.
+Within 30 calendar days after request from Debenu, or Debenu's authorized representative, Licensee will provide full documentation, and certify under penalty of perjury, that Licensee's use of any and all Licensed Software is in conformity with this EULA.
+
+TERMINATION.
+If Licensee breaches this EULA, and fails to cure any breach within 30 calendar days after request from Debenu, or Debenu's authorized representative, Debenu may terminate this EULA, whereupon all rights granted to Licensee shall immediately cease. Furthermore, upon termination, Licensee shall return to Debenu all copies of the Licensed Software, or verify in writing that all copies of the Licensed Software have been destroyed.
+
+ADDITIONAL LEGAL NOTICES
+
++ + +
+Fluent is a trademark of Microsoft Corporation and the Fluent user interface is licensed from Microsoft Corporation.
+
+Portions are based on XZip and XUnzip licensed under the Code Project Open License (CPOL) 1.02 – available at http://www.codeproject.com/info/CPOL.zip.
+
+Portions are based on Info-ZIP code, modified by Lucian Wischik.
+
+The definitive version of the 1999-Oct-05 Info-ZIP copyright and license should be available at ftp://ftp.cdrom.com/pub/infozip/license.html indefinitely.
+
+Portions based on SQLite software http://www.sqlite.org, which has been dedicated to the public domain.
++ + +
+
+
+
+
+
+
+
+
+
+

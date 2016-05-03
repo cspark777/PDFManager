@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{b7fe9277-84e3-4495-b218-8bc8b2f5e82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\shared">
+      <UniqueIdentifier>{2d16b945-0fdb-4173-bba4-1ba84adda617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\sqlite">
+      <UniqueIdentifier>{0f4f5164-0d63-46d2-9bf2-5b3d93886ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\quickpdf">
+      <UniqueIdentifier>{3f0a6cf9-4804-40c1-b70a-67b1b1c2549f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CNotifyDirCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sqlite\CppSQLite3U.cpp">
+      <Filter>Libraries\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\sqlite\sqlite3.c">
+      <Filter>Libraries\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CBRepository.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CLog.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\FileFinder.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\Path.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CDB.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\Define.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\shared\CProgressDlg.cpp">
+      <Filter>Libraries\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\quickpdf\DebenuPDFLibraryAX0912.cpp">
+      <Filter>Libraries\quickpdf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CNotifyDirCheck.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\sqlite\CppSQLite3U.h">
+      <Filter>Libraries\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\sqlite\sqlite3.h">
+      <Filter>Libraries\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CBRepository.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CLog.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\FileFinder.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\Path.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\Define.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CDB.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\shared\CProgressDlg.h">
+      <Filter>Libraries\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\quickpdf\DebenuPDFLibraryAX0912.h">
+      <Filter>Libraries\quickpdf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Assistant.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Assistant.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\animation.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Assistant.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

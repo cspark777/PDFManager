@@ -1,0 +1,14 @@
+1. Open CMD with Admin
+2. Go to:
+
+cd "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin"
+
+3. Run this (updated QPL version if necessary):
+
+signtool sign /v /ac "C:\Debenu\Corporate\Management\Certificates\Verisign\VeriSign cross certificate\MSCV-VSClass3.cer" /s MY /n "Debenu Pty. Ltd." /t http://timestamp.verisign.com/scripts/timstamp.dll "C:\Debenu\Product Management\Installer\Benubird Pro\1.4.0.6\benubird_pdf_en.exe"
+
+Microsoft Authenticode Signing Instructions
+https://knowledge.verisign.com/support/code-signing-support/index?page=content&id=AR190&actp=LIST&viewlocale=en_US
+
+How to sign Microsoft Windows 64-bit kernel-mode software using Microsoft Authenticode or Microsoft Office and VBA?
+https://knowledge.verisign.com/support/code-signing-support/index?page=content&id=SO5820#

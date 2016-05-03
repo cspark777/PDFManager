@@ -1,0 +1,9 @@
+; BenubirdShell.def : Declares the module parameters.
+
+LIBRARY      "BenubirdShell.DLL"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer	PRIVATE

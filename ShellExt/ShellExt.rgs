@@ -1,0 +1,58 @@
+HKCR
+{
+	BenubirdShell.BenubirdShellExt.1 = s 'BenubirdShellExt Class'
+	{
+		CLSID = s '{3A1530BA-0C6D-46E3-B04D-E25494A05750}'
+	}
+	BenubirdShell.BenubirdShellExt = s 'BenubirdShellExt Class'
+	{
+		CLSID = s '{3A1530BA-0C6D-46E3-B04D-E25494A05750}'
+		CurVer = s 'BenubirdShell.BenubirdShellExt.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {3A1530BA-0C6D-46E3-B04D-E25494A05750} = s 'BenubirdShellExt Class'
+		{
+			ProgID = s 'BenubirdShell.BenubirdShellExt.1'
+			VersionIndependentProgID = s 'BenubirdShell.BenubirdShellExt'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{9777BB38-9CD0-4527-95D1-E4C0BAE97858}'
+		}
+	}
+
+	NoRemove CLSID
+	{
+		ForceRemove {3A1530BA-0C6D-46E3-B04D-E25494A05750} = s 'BenubirdShellExt Class'
+		{
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+
+
+    NoRemove *
+    {
+        NoRemove shellex
+        {
+            NoRemove ContextMenuHandlers
+            {
+                BenubirdShell = s '{3A1530BA-0C6D-46E3-B04D-E25494A05750}'
+            }
+        }
+    }
+    NoRemove directory
+    {
+        NoRemove shellex
+        {
+            NoRemove ContextMenuHandlers
+            {
+                BenubirdShell = s '{3A1530BA-0C6D-46E3-B04D-E25494A05750}'
+            }
+        }
+    }
+}

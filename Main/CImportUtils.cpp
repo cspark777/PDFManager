@@ -1,0 +1,8 @@
+#include "stdafx.h"
+#include "CImportUtils.h"
+//#include "COrganizer.h"
+#include "unzip.h"
+#include "cdb.h"
+#include "CProgressDlg.h"
+#include "MainFrm.h"
+#include "CBRepository.h"

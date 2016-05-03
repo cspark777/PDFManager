@@ -1,0 +1,32 @@
+// Benubird.idl : type library source for Benubird.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Benubird.tlb).
+
+[ uuid(728777C4-F5AC-4023-AD55-ACDAD7A71EC5), version(1.0) ]
+library Benubird
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CLibraryDoc
+	
+	[ uuid(7A558363-0BC9-4962-85CD-01E74CB64771) ]
+	dispinterface IBenubird
+	{
+		properties:
+			
+		methods:
+			[id(1), helpstring("method Show")] void Show(void);
+			[id(2), helpstring("method AddFile")] LONG AddFile(BSTR file);
+			[id(3), helpstring("method ConvertToPDF")] LONG ConvertToPDF(BSTR files);
+	};
+
+	//  Class information for CLibraryDoc
+	
+	[ uuid(B1789690-8215-4669-A691-174D19A147A3) ]
+	coclass Benubird
+	{
+		[default] dispinterface IBenubird;
+	};
+};

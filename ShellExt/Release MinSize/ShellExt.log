@@ -1,0 +1,76 @@
+﻿Build started 12/18/2012 5:25:25 PM.
+     1>Project "E:\Project\PDF Library\Source\benubirdii\Benubird 1.4.0.7\ShellExt\ShellExt.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release MinSize\ShellExt.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release MinSize\ShellExt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Midl:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /W1 /nologo /char signed /env win32 /Oicf /h "BenubirdShell.h" /iid "BenubirdShell_i.c" /tlb ".\BenubirdShell.tlb" BenubirdShell.idl 
+         BenubirdShell.idl
+         Processing .\BenubirdShell.idl
+         oaidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         objidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         unknwn.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         wtypes.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         basetsd.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         guiddef.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         ocidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ocidl.idl
+         oleidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oleidl.idl
+         servprov.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\servprov.idl
+         urlmon.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\urlmon.idl
+         msxml.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\msxml.idl
+         oaidl.acf
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         ocidl.acf
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ocidl.acf
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Libraries\sn /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _ATL_DLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release MinSize\BenubirdShell.pch" /Fo"Release MinSize\\" /Fd"Release MinSize\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         atlimpl.cpp is obsolete. Please remove it from your project.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Libraries\sn /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _ATL_DLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release MinSize\\" /Fd"Release MinSize\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Libraries\sn\sn.cpp
+         sn.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Libraries\sn /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _ATL_DLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release MinSize\BenubirdShell.pch" /Fo"Release MinSize\\" /Fd"Release MinSize\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BenubirdShell.cpp BenubirdShellExt.cpp
+         BenubirdShell.cpp
+         BenubirdShellExt.cpp
+     1>BenubirdShellExt.cpp(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x041b" /I"Release MinSize\\" /nologo /fo"Release MinSize\BenubirdShell.res" BenubirdShell.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release MinSize\BenubirdShell.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\BenubirdShell.def" /MANIFEST /ManifestFile:"Release MinSize\BenubirdShell.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"Release MinSize\BenubirdShell.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"/BenubirdShell.lib" /MACHINE:X86 /DLL "Release MinSize\BenubirdShell.res"
+         "Release MinSize\sn.obj"
+         "Release MinSize\BenubirdShell.obj"
+         "Release MinSize\BenubirdShellExt.obj"
+         "Release MinSize\StdAfx.obj"
+            Creating library /BenubirdShell.lib and object /BenubirdShell.exp
+         ShellExt.vcxproj -> E:\Project\PDF Library\Source\benubirdii\Benubird 1.4.0.7\ShellExt\Release MinSize\BenubirdShell.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release MinSize\BenubirdShell.dll;#2" /manifest "Release MinSize\BenubirdShell.dll.intermediate.manifest" "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       CustomBuildStep:
+         Description: Performing registration
+         regsvr32 /s /c "E:\Project\PDF Library\Source\benubirdii\Benubird 1.4.0.7\ShellExt\Release MinSize\BenubirdShell.dll"
+         echo regsvr32 exec. time > "Release MinSize\regsvr32.trg"
+         
+         :VCEnd
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(183,5): error MSB3075: The command "regsvr32 /s /c "E:\Project\PDF Library\Source\benubirdii\Benubird 1.4.0.7\ShellExt\Release MinSize\BenubirdShell.dll"
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(183,5): error MSB3075: echo regsvr32 exec. time > "Release MinSize\regsvr32.trg"
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(183,5): error MSB3075: 
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(183,5): error MSB3075: :VCEnd" exited with code 5. Please verify that you have sufficient rights to run this command.
+     1>Done Building Project "E:\Project\PDF Library\Source\benubirdii\Benubird 1.4.0.7\ShellExt\ShellExt.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:36.22
